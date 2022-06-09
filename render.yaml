@@ -1,0 +1,11 @@
+
+services:
+- type: web
+  name: judge0
+  env: docker
+  plan: standard
+  disk:
+    name: judgedisk
+    mountPath: /box
+    sizeGB: 20
+  autoDeploy: true
