@@ -3,6 +3,7 @@ services:
 - type: web
   name: judge0
   env: docker
+  region: frankfurt
   plan: standard
   disk:
     name: judgedisk
